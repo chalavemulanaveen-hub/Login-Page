@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .{
+            margin: 30px;
+            padding: 30px;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            color: rgb(21, 2, 2);
+        }
+        .main{
+            position:relative ;       }
+            .login-box{
+                width: 90%;
+                max-width: 350px;
+            }
+        form {
+            width: 300px;
+            height: 400px;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding= 50px;
+        }
+        .google {
+                background: #db4437;
+                color: white;
+            }
+            .facebook {
+                background: #1877f2;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+        <div class="background"></div>
+    </div>
+    <form action="">
+        <h3 style="text-align: center;">Login Here</h3>
+        <label for="Username">Username</label>
+        <input type="text" placeholder="Email or Phone" required/>
+        <label for="Password">Password</label>
+        <input type="password" placeholder="Password" required/>
+        <button class="Login">Login</button>
+        <div class="social">
+            <button class="google">google</button>
+            <button class="facebook">facebook</button></div>
+    </form>
+</body>
+</html>
